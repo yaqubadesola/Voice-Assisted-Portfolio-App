@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.28",
     "@craco/craco": "^5.9.0",
-    "@heroicons/react": "^1.0.1",
+    "@heroicons/react": "^1.0.4",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
