@@ -2,7 +2,7 @@
 import { HomeIcon } from "@heroicons/react/solid";
 import React from "react";
 import emailjs from 'emailjs-com';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 toast.configure()
 export default function Contact() {
