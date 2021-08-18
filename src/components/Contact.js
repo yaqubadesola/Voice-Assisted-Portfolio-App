@@ -24,7 +24,7 @@ export default function Contact() {
         e.target.reset()
     }
     return (
-        <section id="contact" className="relative ">
+        <section id="contact" className="relative "><br /><br />
             <div className="text-center">
                 <HomeIcon className="w-10 inline-block mb-4" />
                 <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
@@ -123,6 +123,6 @@ export default function Contact() {
                     </button>
                 </form>
             </div>
-        </section>
+        </section >
     );
 }

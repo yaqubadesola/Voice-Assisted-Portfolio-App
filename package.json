@@ -11,7 +11,7 @@
     "react-dom": "^17.0.2",
     "react-modal": "^3.14.3",
     "react-popup": "^0.10.0",
-    "react-scripts": "1.1.2",
+    "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.3",
     "react-toastify": "^7.0.4"
   },
@@ -31,5 +31,17 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
