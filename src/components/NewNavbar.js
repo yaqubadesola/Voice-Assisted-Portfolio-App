@@ -1,5 +1,7 @@
 import React from 'react';
 import { ArrowRightIcon } from "@heroicons/react/solid";
+
+import { Navbar, Nav, Container, Form, Button } from 'react-bootstrap'
 function NewNavbar(props) {
     return (
         <>
