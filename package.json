@@ -5,6 +5,7 @@
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.8.28",
     "@craco/craco": "^5.9.0",
+    "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.4",
     "bootstrap": "^5.1.0",
     "emailjs-com": "^2.6.4",

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
+import NewNavbar from "./components/NewNavbar";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
@@ -40,7 +40,7 @@ function App() {
       {/* <Modal isOpen={true}>
         <InfoModal />
       </Modal> */}
-      <Navbar />
+      <NewNavbar />
       <About />
       <Skills />
       <Project />
