@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import NewNavbar from "./components/NewNavbar";
+//import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
@@ -39,7 +40,8 @@ function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
       {/* <Modal isOpen={true}>
         <InfoModal />
-      </Modal> */}
+      </Modal> 
+      < Navbar />*/}
       <NewNavbar />
       <About />
       <Skills />
