@@ -11,7 +11,7 @@ function About(props) {
                             <img
                                 className="object-cover object-center rounded"
                                 alt="hero"
-                                src="./yaqub.jpg"
+                                src="./yaqub_img.jpg"
                             />
                         </a>
                     </div>
