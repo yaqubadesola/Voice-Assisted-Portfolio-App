@@ -3,11 +3,14 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import { saveAs } from "file-saver";
+import findFocusedElem from 'find-focused-element';
 const navigation = [
     { name: 'About', href: '#about', current: true },
     { name: 'Skills', href: '#skills', current: false },
     { name: 'Projects', href: '#projects', current: false },
     { name: 'Testimonials', href: '#testimonials', current: false },
+    { name: 'Download My CV', href: '#download', current: false },
 ]
 
 function classNames(...classes) {
@@ -15,6 +18,16 @@ function classNames(...classes) {
 }
 
 export default function NewNavbar() {
+    // const [hasFocus, setFocus] = useState(false);
+    const saveFile = () => {
+        saveAs(
+            "./yaqubadesolacv.pdf",
+            "yaqub.pdf"
+        );
+    };
+
+    const elem = findFocusedElem(window.document);
+    console.log("focused elem ", elem)
     return (
         <Disclosure as="nav" className="bg-green-800">
             {({ open }) => (
@@ -44,7 +57,8 @@ export default function NewNavbar() {
                                 <div className="hidden sm:block sm:ml-6">
                                     <div className="flex space-x-4">
                                         {navigation.map((item) => (
-                                            <a
+                                            <a id={item.href === "#download" ? "download" : ""}
+                                                onClick={item.href === "#download" ? saveFile : ""}
                                                 key={item.name}
                                                 href={item.href}
                                                 className={classNames(

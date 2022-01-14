@@ -17,12 +17,12 @@ export const projects = [
     link: "https://oshodi.yareece.com.ng/login",
   },
   {
-    title: "React MERN App",
-    subtitle: "MongoDB Express React and Node ",
+    title: "IDENTITY VERIFICATION APP",
+    subtitle: "React, Redux, React Hooks and Redux Toolkits",
     description:
-      "Simple MERN App for managing student's basic information",
-    image: "./meanApp.gif",
-    link: "https://yaqubadesola.com.ng",
+      "An Identity Verification App that verifies and proves beyond doubt.",
+    image: "./iprove.gif",
+    link: "https://yaqubadesola.com.ng/",
   },
   {
     title: "Invoicing App",
@@ -42,13 +42,14 @@ export const projects = [
   },
 
   {
-    title: "Employees Management App",
-    subtitle: "Laravel API, React Bootstrap UI",
+    title: "React MERN App",
+    subtitle: "MongoDB Express React and Node ",
     description:
-      "A react with crud functionality built with laravel API",
-    image: "./ReactLaravel.gif",
-    link: "https://yaqubadesola.com.ng/",
+      "Simple MERN App for managing student's basic information",
+    image: "./meanApp.gif",
+    link: "https://yaqubadesola.com.ng",
   },
+
 ];
 
 export const testimonials = [
